@@ -52,10 +52,13 @@ def main():
             for student in student_array:
                 if student["id"] == person["userId"]:
                     submission_dict["student"] = student["name"]
-                    break
-                else:
-                    print("Error matching student name with id")
             studentwork_array.append(submission_dict)
+
+    f = open("work.md", "a")
+    for work in studentwork_array:
+        f.write("\n" + "[" + work["student"] + "](" + work["url"] + ")")
+
+    f.close()
 
 
 if __name__ == '__main__':
