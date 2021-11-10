@@ -308,5 +308,5 @@ Samples of Student Work
 [Jason](https://jasonzhong3.github.io/Starfield/)   
 [Ivan](https://ivzhu1.github.io/Starfield/)   
 [Tobias](https://tobyzuercher.github.io/Starfield/)   
-[Buddy](https://angela139.github.io/Starfield/)
-[Code](https://angela139.github.io/AsteroidsGame/)
+[Buddy](https://angela139.github.io/Starfield/)   
+[Code](https://angela139.github.io/AsteroidsGame/)   

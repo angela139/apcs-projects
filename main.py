@@ -56,7 +56,7 @@ def main():
 
     f = open("work.md", "a")
     for work in studentwork_array:
-        f.write("\n" + "[" + work["student"] + "](" + work["url"] + ")")
+        f.write("\n" + "[" + work["student"] + "](" + work["url"] + ")" + " " + " " + " ")
 
     f.close()
 
